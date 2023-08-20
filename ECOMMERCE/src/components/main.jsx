@@ -1,0 +1,26 @@
+import React from "react";
+
+const Home = () => {
+  return (
+    <>
+      <div className="hero border-1 pb-3">
+        <div className="card bg-dark text-white border-0 mx-3">
+          <img
+            className="card-img img-fluid"
+            src="./assets/shop.jpg"
+            alt="Card"
+            height={100} // Updated height to 100
+            width={100} // Updated width to 100
+          />
+          <div className="card-img-overlay d-flex align-items-center">
+            <div className="container">
+              <h5 className="card-title fs-1 text fw-lighter">Grand fashion Sale</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default Home;
